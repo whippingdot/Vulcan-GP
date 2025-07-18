@@ -186,7 +186,7 @@ const Footer = () => {
             {/* Sponsor Button with Trophy Icon */}
             <div>
               <Link
-                href="/#"
+                href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
                 className="inline-flex items-center border-2 border-[#e12a2a] text-red-400 hover:bg-[#e12a2a] hover:text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300"
               >
                 <svg

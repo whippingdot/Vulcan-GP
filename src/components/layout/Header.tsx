@@ -190,7 +190,7 @@ const Header = () => {
             ))}
 
             <Link
-              href="/#"
+              href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
               className="block w-full text-center bg-gradient-to-r from-[#e12a2a] to-[#b71f24] hover:from-[#b71f24] hover:to-[#8a1620] text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-[#ff3131]/25 mt-6"
               onClick={() => setIsMobileMenuOpen(false)}
             >
