@@ -137,6 +137,14 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/404"
+                  className="text-gray-400 hover:text-[#ff3131] transition-colors duration-200 text-sm"
+                >
+                  404
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://stemracing.com"
                   target="_blank"
