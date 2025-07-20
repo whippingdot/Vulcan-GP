@@ -90,10 +90,10 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
               {/* Center Title - Properly sized */}
               <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
                 <div className="text-center px-6">
-                  <h3 className="text-4xl md:text-5xl font-bold  horizon-font mb-4">
+                  <h3 className="orbitron-font text-4xl md:text-5xl font-bold mb-4">
                     <span className="text-[#ff914d]">The</span> Team
                   </h3>
-                  <p className="text-base md:text-lg text-gray-300 leading-relaxed">
+                  <p className="ibm-plex-font text-base md:text-lg text-gray-300 leading-relaxed">
                     Meet the brilliant minds behind VulcanGP - a diverse group
                     of engineers, designers, and innovators united by our
                     passion for STEM racing excellence
@@ -243,7 +243,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
                           : "left-1/2 transform -translate-x-1/2"
                       } opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50`}
                     >
-                      <div className="bg-gray-800/95 backdrop-blur-sm border border-[#ff914d]/30 rounded-lg p-4 text-center whitespace-nowrap shadow-lg">
+                      <div className="ibm-plex-font bg-gray-800/95 backdrop-blur-sm border border-[#ff914d]/30 rounded-lg p-4 text-center whitespace-nowrap shadow-lg">
                         <h3 className="text-white font-semibold text-base mb-1">
                           {member.name}
                         </h3>

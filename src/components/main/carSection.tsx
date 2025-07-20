@@ -36,16 +36,16 @@ export default function CarSection() {
           </div>
 
           <div>
-            <h2 className="text-5xl font-bold mb-6 horizon-font">
+            <h2 className="orbitron-font text-5xl font-bold mb-6">
               <span className="text-[#ff914d]">The</span> Car
             </h2>
-            <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+            <p className="ibm-plex-sans text-gray-300 text-lg mb-6 leading-relaxed">
               Our revolutionary racing car represents the pinnacle of
               engineering excellence. Every component has been meticulously
               designed and tested to maximize performance while maintaining the
               highest safety standards.
             </p>
-            <div className="space-y-4 mb-8">
+            <div className="ibm-plex-sans space-y-4 mb-8">
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-[#ff3131] rounded-full mr-4"></div>
                 <span className="text-gray-300">
@@ -68,7 +68,7 @@ export default function CarSection() {
             </div>
             <Link
               href="/car"
-              className="inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
+              className="rajdhani-font inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
             >
               Explore Full Specifications
               <svg

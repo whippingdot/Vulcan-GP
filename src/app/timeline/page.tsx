@@ -99,7 +99,7 @@ export default function TimelinePage() {
             <span className="text-white">Our </span>
             <span className="text-[#ff914d]">Journey</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed">
+          <p className="ibm-plex-font text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-8 leading-relaxed">
             From regional champions to national competitors. Follow our
             incredible journey from victory to preparation for the ultimate
             challenge.
@@ -151,15 +151,15 @@ export default function TimelinePage() {
                     >
                       {/* Header Section - Stacked on mobile, side-by-side on desktop */}
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4 mb-4">
-                        <h3 className="text-lg sm:text-xl lg:text-2xl font-bold horizon-font text-white flex-1 min-w-0">
+                        <h3 className="orbitron-font text-lg sm:text-xl lg:text-2xl font-bold horizon-font text-white flex-1 min-w-0">
                           {event.title}
                         </h3>
-                        <span className="text-sm sm:text-base font-bold text-[#ff3131] flex-shrink-0">
+                        <span className="russo-font text-sm sm:text-base font-bold text-[#ff3131] flex-shrink-0">
                           {event.date}
                         </span>
                       </div>
 
-                      <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+                      <p className="ibm-plex-font text-gray-300 leading-relaxed text-sm sm:text-base">
                         {event.description}
                       </p>
                     </div>

@@ -64,7 +64,7 @@ export default function TeamPage() {
             <span className="text-[#ff914d]">Team</span>
           </h1>
 
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
+          <div className="ibm-plex-font max-w-4xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
             <p>
               We are{" "}
               <span className="text-[#ff3131] font-semibold hover:text-[#ff914d] transition-colors duration-300">
@@ -101,7 +101,7 @@ export default function TeamPage() {
       {/* Team Members Section */}
       <section className="relative z-10 py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold horizon-font text-center mb-12">
+          <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font text-center mb-12">
             <span className="text-[#ff914d]">Our</span>{" "}
             <span className="text-white">People</span>
           </h2>
@@ -122,10 +122,10 @@ export default function TeamPage() {
                       index % 2 === 0 ? "lg:text-left" : "lg:text-right"
                     } text-center`}
                   >
-                    <h3 className="text-3xl md:text-4xl font-bold horizon-font text-[#ff914d] mb-2 group-hover:text-[#ff3131] transition-colors duration-300">
+                    <h3 className="orbitron-font text-3xl md:text-4xl font-bold horizon-font text-[#ff914d] mb-2 group-hover:text-[#ff3131] transition-colors duration-300">
                       {member.name}
                     </h3>
-                    <p className="text-xl text-[#ff3131] font-semibold mb-6 group-hover:text-[#ff914d] transition-colors duration-300">
+                    <p className="ibm-plex-font text-xl text-[#ff3131] font-semibold mb-6 group-hover:text-[#ff914d] transition-colors duration-300">
                       {member.role}
                     </p>
                   </div>
@@ -157,7 +157,7 @@ export default function TeamPage() {
                 </div>
 
                 {/* Description - Always left-aligned */}
-                <div className="w-full lg:w-1/2 space-y-6">
+                <div className="ibm-plex-font w-full lg:w-1/2 space-y-6">
                   <div className="text-left group-hover:transform group-hover:-translate-y-2 transition-transform duration-300">
                     <div className="space-y-4 text-gray-300 leading-relaxed group-hover:text-gray-100 transition-colors duration-300">
                       <p className="text-lg">{member.description}</p>
@@ -212,12 +212,12 @@ export default function TeamPage() {
       {/* Team Excellence Section - For Sponsors */}
       <section className="relative z-10 py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold horizon-font mb-6">
+          <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font mb-6">
             <span className="text-white">Excellence in </span>
             <span className="text-[#ff914d]">Engineering</span>
           </h2>
 
-          <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+          <p className="ibm-plex-font text-xl text-gray-300 mb-8 leading-relaxed">
             Our team represents the perfect blend of youth, innovation, and
             proven results. With championship victories and cutting-edge
             engineering solutions, VulcanGP offers unparalleled value for
@@ -225,9 +225,9 @@ export default function TeamPage() {
             motorsport.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div className="ibm-plex-font grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center space-y-3 hover:scale-110 hover:-translate-y-2 transition-all duration-300 cursor-pointer group">
-              <div className="text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 6
               </div>
               <div className="text-gray-300 group-hover:text-white transition-colors duration-300">
@@ -235,7 +235,7 @@ export default function TeamPage() {
               </div>
             </div>
             <div className="text-center space-y-3 hover:scale-110 hover:-translate-y-2 transition-all duration-300 cursor-pointer group">
-              <div className="text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 1st
               </div>
               <div className="text-gray-300 group-hover:text-white transition-colors duration-300">
@@ -243,7 +243,7 @@ export default function TeamPage() {
               </div>
             </div>
             <div className="text-center space-y-3 hover:scale-110 hover:-translate-y-2 transition-all duration-300 cursor-pointer group">
-              <div className="text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 100%
               </div>
               <div className="text-gray-300 group-hover:text-white transition-colors duration-300">

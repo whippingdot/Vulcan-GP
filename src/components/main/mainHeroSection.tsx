@@ -40,7 +40,7 @@ export default function HeroSection({ onScrollToTeam }: HeroSectionProps) {
           <h1 className="text-[#ff914d] text-6xl md:text-7xl font-bold mb-6 horizon-font">
             VULCAN GP
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
+          <p className="ibm-plex-font text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
             Racing towards innovation with cutting-edge STEM technology and
             engineering excellence
           </p>

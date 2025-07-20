@@ -36,6 +36,22 @@ body {
   font-family: "Horizon", sans-serif;
 }
 
+.orbitron-font {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
+.ibm-plex-font {
+  font-family: var(--font-ibm-plex-sans), sans-serif;
+}
+
+.rajdhani-font {
+  font-family: var(--font-rajdhani), sans-serif;
+}
+
+.russo-font {
+  font-family: var(--font-russo-one), sans-serif;
+}
+
 .red-text {
   color: #ff3131;
 }

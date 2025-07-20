@@ -38,16 +38,16 @@ export default function SponsorSection({
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="text-center relative">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6 horizon-font">
+          <h2 className="orbitron-font text-5xl md:text-6xl font-bold mb-6">
             Our <span className="text-[#ff914d]">Sponsors</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-16">
+          <p className="ibm-plex-font text-xl text-gray-300 max-w-3xl mx-auto mb-16">
             Powered by leading companies that believe in the future of
             developing STEM racing technology and supporting innovation
           </p>
 
           {/* Hierarchical Sponsor Layout */}
-          <div className="relative w-full flex flex-col items-center space-y-12">
+          <div className="orbitron-font relative w-full flex flex-col items-center space-y-12">
             {/* Title Sponsor - Center Top */}
             {titleSponsor && (
               <div className="group">
@@ -174,7 +174,7 @@ export default function SponsorSection({
           <div className="mt-20">
             <Link
               href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
-              className="inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
+              className="rajdhani-font inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
             >
               Become a Sponsor
               <svg

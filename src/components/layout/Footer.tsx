@@ -27,7 +27,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <p className="text-gray-400 leading-relaxed mb-6">
+            <p className="ibm-plex-font text-gray-400 leading-relaxed mb-6">
               Racing towards innovation with cutting-edge STEM technology and
               engineering excellence. Inspiring the next generation of engineers
               and scientists.
@@ -53,7 +53,7 @@ const Footer = () => {
                 </svg>
                 <a
                   href="mailto:vulcangp04@gmail.com"
-                  className="text-sm hover:text-[#ff3131] transition-colors"
+                  className="ibm-plex-font text-sm hover:text-[#ff3131] transition-colors"
                 >
                   vulcangp04@gmail.com
                 </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                <span className="text-sm">+91 76808 90880</span>
+                <span className="ibm-plex-font text-sm">+91 76808 90880</span>
               </div>
 
               <div className="flex items-center text-gray-400">
@@ -93,17 +93,19 @@ const Footer = () => {
                   <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                <span className="text-sm">Hyderabad, Telangana, India</span>
+                <span className="ibm-plex-font text-sm">
+                  Hyderabad, Telangana, India
+                </span>
               </div>
             </div>
           </div>
 
           {/* Quick Links - Center Aligned */}
           <div className="text-center">
-            <h3 className="text-xl font-semibold orange-text mb-4">
+            <h3 className="orbitron-font text-xl font-semibold orange-text mb-4">
               Quick Links
             </h3>
-            <ul className="space-y-3">
+            <ul className="ibm-plex-font space-y-3">
               <li>
                 <Link
                   href="/"
@@ -159,7 +161,7 @@ const Footer = () => {
 
           {/* Stay Connected - Right Aligned */}
           <div className="text-right">
-            <h3 className="text-xl font-semibold orange-text mb-6">
+            <h3 className="orbitron-font text-xl font-semibold orange-text mb-6">
               Stay Connected
             </h3>
 
@@ -169,7 +171,7 @@ const Footer = () => {
                 href="https://instagram.com/vulcangp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center bg-gradient-to-r from-[#e12a2a] to-[#b71f24] hover:from-[#b71f24] hover:to-[#8a1620] text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-[#ff3131]/25"
+                className="inline-flex items-center bg-gradient-to-r from-[#e12a2a] to-[#b71f24] hover:from-[#b71f24] hover:to-[#8a1620] text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-[#ff3131]/25 rajdhani-font"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +197,7 @@ const Footer = () => {
             <div>
               <Link
                 href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
-                className="inline-flex items-center border-2 border-[#e12a2a] text-red-400 hover:bg-[#e12a2a] hover:text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300"
+                className="inline-flex items-center border-2 border-[#e12a2a] text-red-400 hover:bg-[#e12a2a] hover:text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 rajdhani-font"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

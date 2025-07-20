@@ -56,7 +56,6 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation with Enhanced Hover Effects */}
-
         <nav className="hidden md:flex items-center space-x-8">
           {[
             { href: "/", label: "Home" },
@@ -69,21 +68,31 @@ const Header = () => {
               <Link
                 key={index}
                 href={item.href}
-                className={`relative group py-2 px-1 transition-all duration-300 ${
-                  isActive ? "font-bold" : "text-gray-300 hover:text-white"
-                }`}
-                style={isActive ? { color: "#ff914d" } : {}}
+                className="relative group py-2 px-1 transition-all duration-300"
               >
+                {/* Invisible bold text to reserve space */}
                 <span
-                  className={`relative z-10 transition-colors duration-300 ${
-                    isActive ? "group-hover:text-[#ffb97a]" : ""
-                  }`}
+                  className="invisible font-bold ibm-plex-font"
+                  aria-hidden="true"
                 >
                   {item.label}
                 </span>
-                {/* Simple underline: always visible for active, hover for others */}
+
+                {/* Actual visible text */}
                 <span
-                  className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff3131] to-[#e12a2a] transition-all duration-300 ${"w-0 group-hover:w-full"}`}
+                  className={`ibm-plex-font absolute inset-0 flex items-center justify-center transition-all duration-300 ${
+                    isActive
+                      ? "font-bold group-hover:text-[#ffb97a]"
+                      : "text-gray-300 hover:text-white"
+                  }`}
+                  style={isActive ? { color: "#ff914d" } : {}}
+                >
+                  {item.label}
+                </span>
+
+                {/* Underline */}
+                <span
+                  className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff3131] to-[#e12a2a] transition-all duration-300 w-0 group-hover:w-full`}
                 ></span>
               </Link>
             );
@@ -119,7 +128,9 @@ const Header = () => {
                 <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
               </svg>
             </span>
-            <span className="font-bold tracking-wide">Sponsor Us</span>
+            <span className="font-bold tracking-wide rajdhani-font">
+              Sponsor Us
+            </span>
             {/* Chevron arrow */}
             <span className="ml-3 flex items-center">
               <svg

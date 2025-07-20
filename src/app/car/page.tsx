@@ -139,16 +139,16 @@ export default function CarPage() {
             <span className="text-white"> Car</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
+          <p className="ibm-plex-font text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
             Championship-winning F1 in Schools race car engineered for maximum
             performance , optimized through advanced aerodynamics and precision
             manufacturing.
           </p>
 
           {/* Performance Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
+          <div className="ibm-plex-font grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
             <div className="text-center space-y-2 group hover:scale-110 transition-transform duration-300">
-              <div className="text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 {carSpecs.performance.weight}
               </div>
               <div className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -156,7 +156,7 @@ export default function CarPage() {
               </div>
             </div>
             <div className="text-center space-y-2 group hover:scale-110 transition-transform duration-300">
-              <div className="text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 {carSpecs.performance.topSpeed}
               </div>
               <div className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -164,7 +164,7 @@ export default function CarPage() {
               </div>
             </div>
             <div className="text-center space-y-2 group hover:scale-110 transition-transform duration-300">
-              <div className="text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 {carSpecs.performance.trackTime}
               </div>
               <div className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -172,7 +172,7 @@ export default function CarPage() {
               </div>
             </div>
             <div className="text-center space-y-2 group hover:scale-110 transition-transform duration-300">
-              <div className="text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+              <div className="russo-font text-2xl md:text-3xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                 {carSpecs.performance.downforce}
               </div>
               <div className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -186,7 +186,7 @@ export default function CarPage() {
       {/* Interactive Car Section */}
       <section id="car-design" className="relative z-10 py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold horizon-font text-center mb-16">
+          <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font text-center mb-16">
             <span className="text-[#ff914d]">Engineering</span>{" "}
             <span className="text-white">Excellence</span>
           </h2>
@@ -277,10 +277,10 @@ export default function CarPage() {
                   <div className="flex items-start gap-4">
                     <div className="text-3xl">{feature.icon}</div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ff3131] transition-colors duration-300">
+                      <h3 className="orbitron-font text-xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ff3131] transition-colors duration-300">
                         {feature.title}
                       </h3>
-                      <p className="text-gray-300 text-sm leading-relaxed">
+                      <p className="ibm-plex-font text-gray-300 text-sm leading-relaxed">
                         {feature.description}
                       </p>
                     </div>
@@ -295,13 +295,13 @@ export default function CarPage() {
       {/* Technical Specifications */}
       <section id="specifications" className="relative z-10 py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold horizon-font text-center mb-12">
+          <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font text-center mb-12">
             <span className="text-white">Technical </span>
             <span className="text-[#ff914d]">Specifications</span>
           </h2>
 
           {/* Spec Category Tabs */}
-          <div className="flex flex-wrap justify-center gap-6 mb-12">
+          <div className="ibm-plex-font flex flex-wrap justify-center gap-6 mb-12">
             {Object.keys(carSpecs).map((category) => (
               <button
                 key={category}
@@ -325,7 +325,7 @@ export default function CarPage() {
                 <div className="absolute inset-0 -skew-x-12 bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-opacity duration-500"></div>
 
                 {/* Content */}
-                <span className="relative z-10 flex items-center gap-2">
+                <span className="ibm-plex-font relative z-10 flex items-center gap-2">
                   {category === "performance" && "⚡"}
                   {category === "dimensions" && "📏"}
                   {category === "materials" && "🔧"}
@@ -352,11 +352,11 @@ export default function CarPage() {
                   key={key}
                   className="flex justify-between items-center p-4 bg-black/30 rounded-xl border border-gray-800/30 hover:border-[#ff914d]/30 transition-all duration-300 group"
                 >
-                  <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
+                  <span className="ibm-plex-font text-gray-300 group-hover:text-white transition-colors duration-300">
                     {key.charAt(0).toUpperCase() +
                       key.slice(1).replace(/([A-Z])/g, " $1")}
                   </span>
-                  <span className="text-[#ff914d] font-semibold group-hover:text-[#ff3131] transition-colors duration-300">
+                  <span className="russo-font text-[#ff914d] font-semibold group-hover:text-[#ff3131] transition-colors duration-300">
                     {value}
                   </span>
                 </div>
@@ -369,7 +369,7 @@ export default function CarPage() {
       {/* Development Process */}
       <section id="development" className="relative z-10 py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold horizon-font text-center mb-12">
+          <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font text-center mb-12">
             <span className="text-[#ff914d]">Development</span>{" "}
             <span className="text-white">Process</span>
           </h2>
@@ -413,14 +413,14 @@ export default function CarPage() {
                   <div className="w-20 h-20 bg-gradient-to-br from-[#ff3131] to-[#ff914d] rounded-full flex items-center justify-center text-3xl mx-auto mb-4 group-hover:shadow-lg group-hover:shadow-[#ff914d]/20 transition-shadow duration-300">
                     {phase.icon}
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-black border-2 border-[#ff914d] rounded-full flex items-center justify-center text-xs font-bold text-[#ff914d] group-hover:text-[#ff3131] group-hover:border-[#ff3131] transition-colors duration-300">
+                  <div className="russo-font absolute -top-2 -right-2 w-8 h-8 bg-black border-2 border-[#ff914d] rounded-full flex items-center justify-center text-xs font-bold text-[#ff914d] group-hover:text-[#ff3131] group-hover:border-[#ff3131] transition-colors duration-300">
                     {phase.step}
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-[#ff914d] mb-3 group-hover:text-[#ff3131] transition-colors duration-300">
+                <h3 className="orbitron-font text-xl font-bold text-[#ff914d] mb-3 group-hover:text-[#ff3131] transition-colors duration-300">
                   {phase.title}
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-100 transition-colors duration-300">
+                <p className="ibm-plex-font text-gray-300 text-sm leading-relaxed group-hover:text-gray-100 transition-colors duration-300">
                   {phase.description}
                 </p>
               </div>
@@ -432,16 +432,16 @@ export default function CarPage() {
       {/* Championship Results */}
       <section className="relative z-10 py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold horizon-font mb-8">
+          <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font mb-8">
             <span className="text-white">Championship </span>
             <span className="text-[#ff914d]">Results</span>
           </h2>
 
           <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-3xl p-8 backdrop-blur-sm border border-gray-800/50">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="ibm-plex-font grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center space-y-4 group hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl mb-4">🏆</div>
-                <div className="text-2xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+                <div className="russo-font text-2xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                   1st Place
                 </div>
                 <div className="text-gray-300 group-hover:text-white transition-colors duration-300">
@@ -450,7 +450,7 @@ export default function CarPage() {
               </div>
               <div className="text-center space-y-4 group hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl mb-4">⚡</div>
-                <div className="text-2xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+                <div className="russo-font text-2xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                   3<sup className="text-sm">rd</sup> Fastest
                 </div>
                 <div className="text-gray-300 group-hover:text-white transition-colors duration-300">
@@ -459,7 +459,7 @@ export default function CarPage() {
               </div>
               <div className="text-center space-y-4 group hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl mb-4">🎯</div>
-                <div className="text-2xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
+                <div className="russo-font text-2xl font-bold text-[#ff914d] horizon-font group-hover:text-[#ff3131] transition-colors duration-300">
                   Best R&D
                 </div>
                 <div className="text-gray-300 group-hover:text-white transition-colors duration-300">

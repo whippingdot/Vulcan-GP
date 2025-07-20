@@ -10,9 +10,9 @@ export default function StemRacingSection() {
       {/* <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#0C111D] to-transparent"></div> */}
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="ibm-plex-font grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-5xl font-bold mb-6 horizon-font">
+            <h2 className="orbitron-font text-5xl font-bold mb-6">
               What is <span className="text-[#ff914d]">STEM Racing?</span>
             </h2>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
@@ -32,7 +32,7 @@ export default function StemRacingSection() {
             </p>
             <Link
               href="https://stemracing.com/"
-              className="inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
+              className="rajdhani-font inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
             >
               Explore STEM Racing
               <svg
@@ -51,9 +51,9 @@ export default function StemRacingSection() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="ibm-plex-font grid grid-cols-2 gap-6">
             <div className="bg-gray-800/30 border border-[#ff3131]/30 rounded-lg p-6 text-center hover:bg-[#ff3131]/10 hover:border-[#ff3131]/60 hover:shadow-lg hover:shadow-[#ff3131]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
+              <div className="russo-font text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
                 60+
               </div>
               <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
@@ -61,7 +61,7 @@ export default function StemRacingSection() {
               </div>
             </div>
             <div className="bg-gray-800/30 border border-[#ff914d]/30 rounded-lg p-6 text-center hover:bg-[#ff914d]/10 hover:border-[#ff914d]/60 hover:shadow-lg hover:shadow-[#ff914d]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300">
+              <div className="russo-font text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300">
                 25,000+
               </div>
               <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
@@ -69,7 +69,7 @@ export default function StemRacingSection() {
               </div>
             </div>
             <div className="bg-gray-800/30 border border-[#ff3131]/30 rounded-lg p-6 text-center hover:bg-[#ff3131]/10 hover:border-[#ff3131]/60 hover:shadow-lg hover:shadow-[#ff3131]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
+              <div className="russo-font text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
                 $2 Million+
               </div>
               <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
@@ -77,7 +77,7 @@ export default function StemRacingSection() {
               </div>
             </div>
             <div className="bg-gray-800/30 border border-[#ff914d]/30 rounded-lg p-6 text-center hover:bg-[#ff914d]/10 hover:border-[#ff914d]/60 hover:shadow-lg hover:shadow-[#ff914d]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300">
+              <div className="russo-font text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300">
                 40+
               </div>
               <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
