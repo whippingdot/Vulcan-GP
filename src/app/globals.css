@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Horizon";
+  src: url("/fonts/horizon/horizon.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +30,50 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.horizon-font {
+  font-family: "Horizon", sans-serif;
+}
+
+.orbitron-font {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
+.ibm-plex-font {
+  font-family: var(--font-ibm-plex-sans), sans-serif;
+}
+
+.rajdhani-font {
+  font-family: var(--font-rajdhani), sans-serif;
+}
+
+.russo-font {
+  font-family: var(--font-russo-one), sans-serif;
+}
+
+.red-text {
+  color: #ff3131;
+}
+
+.orange-text {
+  color: #ff914d;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%) skew(-15deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%) skew(-15deg);
+    opacity: 0;
+  }
+}
+
+.slideRight {
+  animation: slideRight infinite linear;
 }
