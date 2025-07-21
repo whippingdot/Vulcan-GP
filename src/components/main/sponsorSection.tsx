@@ -173,7 +173,7 @@ export default function SponsorSection({
 
           <div className="mt-20">
             <Link
-              href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
+              href="mailto:vulcangp@outlook.com?subject=Sponsorship Inquiry"
               className="rajdhani-font inline-flex items-center px-8 py-4 bg-[#ff3131] hover:bg-[#e12a2a] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#ff3131]/20"
             >
               Become a Sponsor
