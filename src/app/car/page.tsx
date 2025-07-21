@@ -67,7 +67,7 @@ const carFeatures = [
   {
     title: "Advanced Spoiler",
     description:
-      "Multi-element rear spoiler providing 2.8N downforce at top speed for enhanced stability",
+      "Cutting-edge rear spoiler providing 2.8N downforce at top speed for enhanced stability",
     icon: "📐",
     position: { top: "45%", left: "50%" },
     highlight: "spoiler",
