@@ -70,7 +70,7 @@ export default function StemRacingSection() {
             </div>
             <div className="bg-gray-800/30 border border-[#ff3131]/30 rounded-lg p-6 text-center hover:bg-[#ff3131]/10 hover:border-[#ff3131]/60 hover:shadow-lg hover:shadow-[#ff3131]/20 hover:scale-105 transition-all duration-300 group">
               <div className="russo-font text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
-                $2 Million+
+                $2M+
               </div>
               <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
                 Anually Raised by Teams
