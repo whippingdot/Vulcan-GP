@@ -51,7 +51,7 @@ const carFeatures = [
   {
     title: "Lightweight Chassis",
     description:
-      "Precision-machined balsa chassis optimized for weight and rigidity",
+      "Precision-machined polyurethane foam chassis optimized for weight and rigidity",
     icon: "⚡",
     position: { bottom: "35%", left: "10%" },
     highlight: "chassis",
@@ -59,7 +59,7 @@ const carFeatures = [
   {
     title: "Precision Wheels",
     description:
-      "Low-friction polymer wheels with ceramic bearings for reduced rolling resistance",
+      "Low-friction polymer wheels with stainless steel bearings for reduced rolling resistance",
     icon: "⚙️",
     position: { bottom: "25%", right: "10%" },
     highlight: "wheels",
