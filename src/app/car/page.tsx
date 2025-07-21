@@ -23,10 +23,10 @@ const carSpecs = {
     groundClearance: "2mm",
   },
   materials: {
-    chassis: "Balsa Wood & Carbon Fiber",
+    chassis: "Polyurethane Foam",
     wheels: "Lightweight Polymer",
-    axles: "Carbon Fibre",
-    bearings: "Ceramic Ball Bearings",
+    axles: "Nylon",
+    bearings: "Precision Stainless Steel",
     finish: "High-Gloss Aerodynamic Paint",
   },
 };
