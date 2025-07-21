@@ -11,38 +11,39 @@ export const teamData: TeamMember[] = [
   {
     name: "Arnav Kaul",
     role: "Team Principal",
-    image: "/placeholder-team.jpg", // Replace with actual image path
+    image: "/Arnav.jpg", // Replace with actual image path
     description:
-      "As Team Principal, Arnav leads VulcanGP with strategic vision and operational excellence. With a deep understanding of both technical and business aspects of motorsport, he coordinates between all departments to ensure our team operates at peak performance. His leadership has been instrumental in our regional championship victory.",
+      "As Team Principal, Arnav leads VulcanGP with strategic vision and an unwavering passion for motorsport. He brought the team together from scratch and has been the core link between operations, engineering, and management. His ability to manage both people and problems under pressure was critical in our successful run at the South India Regionals. With a background in leadership and team-building, Arnav ensures the team stays on track—literally and figuratively.",
     achievements: [
-      "Led team to 2024 STEM Racing Regionals victory",
-      "Implemented strategic partnerships with key sponsors",
-      "Coordinated successful international competition entries",
+      "Led VulcanGP to 1st place at South India Regionals 2025",
+      "Oversaw team operations for Best R&D Award win",
+      "Built foundational team structure and strategy",
     ],
     specialties: [
+      "Leadership & Coordination",
       "Strategic Planning",
-      "Team Leadership",
-      "Project Management",
-      "Sponsor Relations",
+      "Communication",
+      "Event Mangagement",
+      "Motorsport Knowledge",
     ],
   },
   {
     name: "Sanjaay Rajkumar",
     role: "Head of Technology",
-    image: "/Sanjaay.jpg",
+    image: "/Sanjaay.jpeg",
     description:
-      "Sanjaay spearheads all technological innovations at VulcanGP. From advanced telemetry systems to cutting-edge simulation software, he ensures our car leverages the latest technology for competitive advantage. His expertise in both hardware and software integration has revolutionized our development process.",
+      "As Head of Tech, Sanjaay brings engineering depth and programming experience to VulcanGP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
     achievements: [
-      "Developed custom telemetry and data acquisition system",
+      "Designed and developed team’s official website",
       "Implemented advanced simulation workflows",
       "Created innovative manufacturing processes",
     ],
     specialties: [
-      "Software Development",
+      "Programming & Simulation",
+      "UI/UX & Web Design",
       "Data Analysis",
-      "Telemetry Systems",
-      "CAD/CAM",
-      "3D Printing",
+      "Physics Applications",
+      "Technical Innovation",
     ],
   },
   {
@@ -50,75 +51,75 @@ export const teamData: TeamMember[] = [
     role: "Design Engineer",
     image: "/Agastya.jpeg",
     description:
-      "Agastya brings creative engineering solutions to life through innovative design and meticulous analysis. His work on aerodynamics and chassis optimization has significantly improved our car's performance. He combines theoretical knowledge with practical engineering to push the boundaries of what's possible.",
+      "Agastya is the team’s go-to expert for car design and CAD modeling. His deep interest in physics and hands-on work ethic make him a crucial part of the engineering pipeline. As the main designer for our Regionals car, he translated group concepts into a tangible, high-performance model. He continues to iterate and innovate, constantly testing new shapes, materials, and configurations to push our car’s performance forward.",
     achievements: [
-      "Designed award-winning aerodynamic package",
-      "Optimized chassis for weight and strength",
-      "Developed innovative suspension geometry",
+      "Poineered design of the Regionals car (3rd fastest in South India)",
+      "Contributed to Best R&D Award",
+      "Refined aero-package for next-gen development",
     ],
     specialties: [
+      "CAD & 3D Modeling",
+      "Engineering Design",
       "Aerodynamics",
-      "Chassis Design",
-      "FEA Analysis",
-      "CAD Modeling",
-      "Performance Optimization",
+      "Physics Integration",
+      "Rapid Prototyping",
     ],
   },
   {
     name: "Arahant Veerareddy",
     role: "Manufacturing Engineer",
-    image: "/placeholder-team.jpg", // Replace with actual image path
+    image: "/Arahant.jpeg", // Replace with actual image path
     description:
-      "Arahant transforms our digital designs into physical reality through precision manufacturing and quality control. His expertise in advanced manufacturing techniques ensures every component meets our exacting standards. He's the bridge between concept and competition-ready hardware.",
+      "Arahant ensures that our designs go from screen to track. As Manufacturing Engineer, he manages the process of getting components fabricated, coordinating with external vendors, and making sure every physical element of the car matches our design specs. He plays a key role in the team’s design-for-manufacturing process and helps optimize the build for performance, weight, and durability.",
     achievements: [
-      "Established precision manufacturing workflows",
-      "Implemented quality control systems",
-      "Reduced manufacturing time by 40%",
+      "Managed full car manufacturing cycle for Regionals",
+      "Coordinated with CNC vendors and suppliers",
+      "Streamlined production under tight deadlines",
     ],
     specialties: [
-      "CNC Machining",
-      "3D Printing",
-      "Quality Control",
-      "Manufacturing Processes",
-      "Materials Science",
+      "Vendor Coordination",
+      "Part Fabrication",
+      "Technical Communication",
+      "Assembly & QA",
+      "Design-to-Production Flow",
     ],
   },
   {
     name: "Adityesh Chandrayan",
     role: "Technical Director",
-    image: "/placeholder-team.jpg", // Replace with actual image path
+    image: "/Adityesh.jpeg", // Replace with actual image path
     description:
-      "Adityesh oversees all technical aspects of our racing program, from initial concept to track performance. His comprehensive understanding of vehicle dynamics and racing regulations ensures our innovations remain competitive and compliant. He's our technical conscience and strategic advisor.",
+      "As Technical Director, Adityesh oversees every major engineering decision and ensures our car meets all F1 in Schools regulations. Known for his sharp problem-solving and attention to detail, he guides the team through testing, validation, and troubleshooting. His academic excellence and leadership experience give him a unique ability to connect big-picture strategy with on-ground execution—critical in high-pressure moments during Regionals.",
     achievements: [
-      "Ensured 100% regulatory compliance across all competitions",
-      "Developed technical standards and procedures",
-      "Coordinated successful vehicle homologation",
+      "Oversaw compliance and specs for Regionals car",
+      "Led technical documentation for R&D Award",
+      "Helped troubleshoot car issues under pressure",
     ],
     specialties: [
-      "Vehicle Dynamics",
-      "Regulations Compliance",
-      "Technical Strategy",
-      "Performance Analysis",
-      "Testing Protocols",
+      "Engineering Oversight",
+      "Technical Documentation",
+      "Data-Driven Decision Making",
+      "Compliance & Testing",
+      "Critical Thinking",
     ],
   },
   {
     name: "Aadya Pochampally",
     role: "Graphic Designer",
-    image: "/placeholder-team.jpg", // Replace with actual image path
+    image: "/Aadhya.jpeg", // Replace with actual image path
     description:
-      "Aadya creates the visual identity that represents VulcanGP's innovative spirit. From livery design to marketing materials, she ensures our brand reflects our technical excellence and racing passion. Her designs have become synonymous with our championship-winning performance.",
+      "As Graphic Designer, Aadhya defines VulcanGP’s visual identity across all media. She works on car livery, pit displays, website visuals, and everything in between—ensuring our team stands out in presentation and branding. Her design work blends creativity with clarity, helping judges and audiences engage with our team’s story and spirit.",
     achievements: [
-      "Created award-winning livery design",
-      "Developed comprehensive brand identity",
-      "Designed marketing materials for major sponsors",
+      "Created VulcanGP’s brand identity",
+      "Designed car livery and pit visuals",
+      "Managed team’s graphic assets across platforms",
     ],
     specialties: [
       "Graphic Design",
-      "Brand Identity",
-      "Livery Design",
-      "Marketing Materials",
-      "Digital Art",
+      "Visual Branding",
+      "Aesthetic Layouts",
+      "Design Software (Adobe, Canva, Figma)",
+      "Color Theory & Application",
     ],
   },
 ];

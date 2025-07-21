@@ -218,11 +218,12 @@ export default function TeamPage() {
           </h2>
 
           <p className="ibm-plex-font text-xl text-gray-300 mb-8 leading-relaxed">
-            Our team represents the perfect blend of youth, innovation, and
-            proven results. With championship victories and cutting-edge
-            engineering solutions, VulcanGP offers unparalleled value for
-            forward-thinking sponsors looking to associate with the future of
-            motorsport.
+            Our team brings together sharp engineering, high-speed innovation,
+            and a passion for motorsport. From aerodynamic breakthroughs to
+            digital precision, VulcanGP pushes the limits of what student-led
+            teams can achieve. Backed by a regional title and standout design
+            work, we deliver value to sponsors who believe in the future of
+            racing and STEM.
           </p>
 
           <div className="ibm-plex-font grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">

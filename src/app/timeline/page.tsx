@@ -111,8 +111,11 @@ export default function TimelinePage() {
       <section className="relative z-10 py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="relative">
-            {/* Timeline Line */}
+            {/* Desktop Timeline Line - Center */}
             <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-[#ff914d] via-[#ff3131] to-[#ff914d] rounded-full hidden md:block"></div>
+
+            {/* Mobile Timeline Line - Left side */}
+            <div className="absolute left-6 top-0 w-0.5 h-full bg-gradient-to-b from-[#ff914d] via-[#ff3131] to-[#ff914d] rounded-full block md:hidden"></div>
 
             {/* Timeline Events */}
             <div className="space-y-8 md:space-y-6">
@@ -123,7 +126,7 @@ export default function TimelinePage() {
                   onMouseEnter={() => setActiveEvent(event.id)}
                   onMouseLeave={() => setActiveEvent(null)}
                 >
-                  {/* Small Timeline Dot */}
+                  {/* Desktop Timeline Dot - Center */}
                   <div className="absolute left-1/2 transform -translate-x-1/2 z-20 hidden md:block">
                     <div
                       className={`w-3 h-3 rounded-full bg-[#ff3131] border-2 border-white transition-all duration-300 ${
@@ -134,12 +137,26 @@ export default function TimelinePage() {
                     ></div>
                   </div>
 
+                  {/* Mobile Timeline Dot - Left side */}
+                  <div className="absolute left-6 transform -translate-x-1/2 z-20 block md:hidden">
+                    <div className="w-3 h-3 rounded-full bg-[#ff3131] border-2 border-white transition-all duration-300"></div>
+                  </div>
+
+                  {/* Mobile Timeline Connector Line */}
+                  <div className="absolute left-6 z-10 block md:hidden">
+                    <div className="w-8 h-0.5 bg-gradient-to-r from-[#ff3131] to-[#ff914d] translate-x-1"></div>
+                  </div>
+
                   {/* Event Card */}
                   <div
-                    className={`w-full md:w-5/12 ${
+                    className={`w-full ${
+                      // Desktop positioning
                       index % 2 === 0
-                        ? "md:mr-auto md:pr-8"
-                        : "md:ml-auto md:pl-8"
+                        ? "md:w-5/12 md:mr-auto md:pr-8"
+                        : "md:w-5/12 md:ml-auto md:pl-8"
+                    } ${
+                      // Mobile positioning with left margin for timeline
+                      "ml-16 md:ml-0"
                     }`}
                   >
                     <div

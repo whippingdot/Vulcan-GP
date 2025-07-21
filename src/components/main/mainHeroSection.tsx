@@ -12,7 +12,7 @@ export default function HeroSection({ onScrollToTeam }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/Logo.png"
+          src="/CarBG.jpeg"
           alt="VulcanGP Background"
           fill
           className="object-cover opacity-20"

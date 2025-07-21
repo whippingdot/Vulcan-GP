@@ -54,7 +54,7 @@ export default function Home() {
   const handleScrollToTeam = () => {
     if (teamSectionRef.current) {
       const elementTop = teamSectionRef.current.offsetTop;
-      const offset = 25;
+      const offset = 33;
 
       window.scrollTo({
         top: elementTop - offset,

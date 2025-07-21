@@ -200,34 +200,62 @@ const Header = () => {
               </Link>
             ))}
 
-            <Link
-              href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
-              className="block w-full text-center bg-gradient-to-r from-[#e12a2a] to-[#b71f24] hover:from-[#b71f24] hover:to-[#8a1620] text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-[#ff3131]/25 mt-6"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              <span className="flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="mr-2 flex-shrink-0"
-                >
-                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
-                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
-                  <path d="M4 22h16" />
-                  <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
-                  <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
-                  <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-                </svg>
-                Sponsor Us
-              </span>
-            </Link>
+            {/* Updated Mobile Sponsor Button to Match Desktop Design */}
+            <div className="mt-6 flex justify-center">
+              <Link
+                href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
+                className="relative inline-flex items-center px-6 py-3 font-semibold text-white bg-black border-2 border-[#ff3131] rounded-lg shadow-lg transition-all duration-300 group hover:bg-[#ff3131] hover:text-white"
+                style={{ transform: "skew(-8deg)" }}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {/* Trophy/Flag icon */}
+                <span className="mr-3 flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-[#ff914d]"
+                  >
+                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                    <path d="M4 22h16" />
+                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+                  </svg>
+                </span>
+                <span className="font-bold tracking-wide rajdhani-font">
+                  Sponsor Us
+                </span>
+                {/* Chevron arrow */}
+                <span className="ml-3 flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-[#ff3131] group-hover:text-white transition-colors"
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </span>
+                {/* Subtle metallic shine on hover */}
+                <span className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                  <span className="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-white/10 via-white/20 to-transparent skew-x-12"></span>
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
       )}

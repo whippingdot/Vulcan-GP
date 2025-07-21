@@ -1,17 +1,17 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import { AnimatedBackground } from "@/components/main";
 
 // Car specification data
 const carSpecs = {
   performance: {
     weight: "50g",
-    topSpeed: "75 km/h",
+    topSpeed: "80 km/h",
     trackTime: "1.3s",
-    acceleration: "0-75 km/h in 0.8s",
-    downforce: "2.8N at 75 km/h",
+    acceleration: "0-80 km/h in 0.8s",
+    downforce: "2.8N at 80 km/h",
     dragCoefficient: "0.18 Cd",
   },
   dimensions: {
@@ -51,7 +51,7 @@ const carFeatures = [
   {
     title: "Lightweight Chassis",
     description:
-      "Carbon fiber reinforced balsa wood construction achieving optimal strength-to-weight ratio",
+      "Precision-machined balsa chassis optimized for weight and rigidity",
     icon: "⚡",
     position: { bottom: "35%", left: "10%" },
     highlight: "chassis",
@@ -75,7 +75,7 @@ const carFeatures = [
   {
     title: "Drag Reduction",
     description:
-      "Computational fluid dynamics optimized body achieving 0.25 drag coefficient",
+      "Computational fluid dynamics optimized body achieving 0.18 drag coefficient",
     icon: "💨",
     position: { bottom: "15%", left: "50%" },
     highlight: "body",
@@ -85,7 +85,6 @@ const carFeatures = [
 export default function CarPage() {
   const [animationTime, setAnimationTime] = useState(0);
   const [isClient, setIsClient] = useState(false);
-  const [activeFeature, setActiveFeature] = useState<string | null>(null);
   const [selectedSpec, setSelectedSpec] = useState<
     "performance" | "dimensions" | "materials"
   >("performance");
@@ -125,7 +124,6 @@ export default function CarPage() {
   return (
     <div className="bg-black/80 text-white min-h-screen relative overflow-hidden">
       {/* Animated Background */}
-
       <div className="opacity-30">
         <AnimatedBackground animationTime={animationTime} isClient={isClient} />
       </div>
@@ -140,8 +138,8 @@ export default function CarPage() {
           </h1>
 
           <p className="ibm-plex-font text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Championship-winning F1 in Schools race car engineered for maximum
-            performance , optimized through advanced aerodynamics and precision
+            Championship-winning STEM Racing race car engineered for maximum
+            performance, optimized through advanced aerodynamics and precision
             manufacturing.
           </p>
 
@@ -183,7 +181,7 @@ export default function CarPage() {
         </div>
       </section>
 
-      {/* Interactive Car Section */}
+      {/* Interactive Car Section - REDESIGNED */}
       <section id="car-design" className="relative z-10 py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="orbitron-font text-4xl md:text-5xl font-bold horizon-font text-center mb-16">
@@ -192,98 +190,121 @@ export default function CarPage() {
           </h2>
 
           <div className="relative">
-            {/* Car Image Container */}
-            <div
-              ref={carImageRef}
-              className="relative bg-gradient-to-br from-gray-900/50 to-black/50 rounded-3xl p-8 md:p-16 backdrop-blur-sm border border-gray-800/50 mb-12"
-            >
-              {/* Car Image Placeholder - Replace with actual car image */}
-              <div className="relative w-full h-[400px] md:h-[600px] flex items-center justify-center">
-                <div className="w-full max-w-4xl h-full bg-gradient-to-r from-[#ff3131]/20 to-[#ff914d]/20 rounded-2xl flex items-center justify-center border-2 border-[#ff914d]/30">
-                  <div className="text-center">
-                    <div className="text-6xl md:text-8xl mb-4">🏎️</div>
-                    <p className="text-xl text-gray-300">
-                      3D Car Model / Image Goes Here
-                    </p>
-                    <p className="text-sm text-gray-500 mt-2">
-                      Interactive 3D model or high-res car photography
-                    </p>
+            {/* Main Car Showcase - COMPLETELY REDESIGNED */}
+            <div className="relative mb-20">
+              {/* Background Glow Effects */}
+              <div className="absolute inset-0 bg-gradient-to-r from-[#ff3131]/10 via-transparent to-[#ff914d]/10 blur-3xl"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#ff914d]/20 rounded-full blur-3xl animate-pulse"></div>
+
+              {/* Car Image Container - NO BORDERS */}
+              <div
+                ref={carImageRef}
+                className="relative w-full h-[500px] md:h-[700px] group overflow-hidden"
+              >
+                {/* Car Image with Advanced Effects */}
+                <div className="relative w-full h-full flex items-center justify-center">
+                  <div className="relative w-full max-w-5xl h-full">
+                    <Image
+                      src="/CarRender.jpeg"
+                      alt="VulcanGP Racing Car"
+                      fill
+                      className="object-contain transition-all duration-700 ease-out group-hover:scale-110 group-hover:brightness-110 drop-shadow-2xl"
+                      priority
+                    />
+
+                    {/* Floating Particles Effect */}
+                    <div className="absolute inset-0 pointer-events-none">
+                      {[...Array(6)].map((_, i) => (
+                        <div
+                          key={i}
+                          className="absolute w-2 h-2 bg-[#ff914d] rounded-full opacity-60 animate-bounce"
+                          style={{
+                            left: `${20 + i * 15}%`,
+                            top: `${30 + (i % 2) * 40}%`,
+                            animationDelay: `${i * 0.5}s`,
+                            animationDuration: `${2 + i * 0.3}s`,
+                          }}
+                        />
+                      ))}
+                    </div>
+
+                    {/* Reflection Effect */}
+                    <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#ff914d]/5 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   </div>
+                </div>
+
+                {/* Speed Lines Effect */}
+                <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-20 transition-opacity duration-500">
+                  {[...Array(8)].map((_, i) => (
+                    <div
+                      key={i}
+                      className="absolute h-0.5 bg-gradient-to-r from-transparent via-[#ff914d] to-transparent slideRight"
+                      style={{
+                        top: `${20 + i * 10}%`,
+                        left: `-50%`,
+                        width: `200%`,
+                        transform: `skew(-15deg)`,
+                        animationDelay: `${i * 0.2}s`,
+                        animationDuration: `${1 + i * 0.1}s`,
+                      }}
+                    />
+                  ))}
                 </div>
               </div>
 
-              {/* Interactive Feature Points */}
-              {carFeatures.map((feature, featureIndex) => (
-                <div
-                  key={feature.title}
-                  className="absolute cursor-pointer group"
-                  style={feature.position}
-                  onMouseEnter={() => setActiveFeature(feature.title)}
-                  onMouseLeave={() => setActiveFeature(null)}
-                >
-                  {/* Feature Point */}
-                  <div className="relative">
-                    <div className="w-6 h-6 bg-[#ff914d] rounded-full flex items-center justify-center text-white text-sm font-bold border-2 border-white shadow-lg group-hover:scale-125 group-hover:bg-[#ff3131] transition-all duration-300">
-                      {featureIndex + 1}
-                    </div>
-
-                    {/* Pulsing Ring */}
-                    <div className="absolute inset-0 w-6 h-6 rounded-full bg-[#ff914d]/30 animate-pulse group-hover:bg-[#ff3131]/30"></div>
-
-                    {/* Feature Tooltip */}
-                    <div
-                      className={`absolute z-20 p-4 bg-black/90 border border-[#ff914d]/50 rounded-lg backdrop-blur-sm min-w-[280px] transition-all duration-300 ${
-                        activeFeature === feature.title
-                          ? "opacity-100 scale-100"
-                          : "opacity-0 scale-95 pointer-events-none"
-                      }`}
-                      style={{
-                        left: feature.position.left ? "-140px" : "auto",
-                        right: feature.position.right ? "-140px" : "auto",
-                        top: feature.position.top ? "40px" : "auto",
-                        bottom: feature.position.bottom ? "40px" : "auto",
-                      }}
-                    >
-                      <div className="flex items-start gap-3">
-                        <div className="text-2xl">{feature.icon}</div>
-                        <div>
-                          <h4 className="text-[#ff914d] font-semibold mb-1">
-                            {feature.title}
-                          </h4>
-                          <p className="text-sm text-gray-300">
-                            {feature.description}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+              {/* Car Stats Overlay */}
+              <div className="ibm-plex-font absolute -bottom-10 left-1/2 -translate-x-1/2 flex gap-8 bg-black/60 backdrop-blur-md rounded-2xl p-6 border border-gray-800/50">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-[#ff914d] russo-font">
+                    50g
                   </div>
+                  <div className="text-xs text-gray-400">Weight</div>
                 </div>
-              ))}
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-[#ff914d] russo-font">
+                    80
+                  </div>
+                  <div className="text-xs text-gray-400">km/h</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-[#ff914d] russo-font">
+                    1.3s
+                  </div>
+                  <div className="text-xs text-gray-400">Track Time</div>
+                </div>
+              </div>
             </div>
 
-            {/* Feature Cards Below */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {carFeatures.map((feature) => (
+            {/* Feature Cards - IMPROVED LAYOUT */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+              {carFeatures.map((feature, index) => (
                 <div
                   key={feature.title}
-                  className={`bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-6 backdrop-blur-sm border transition-all duration-300 hover:scale-105 cursor-pointer ${
-                    activeFeature === feature.title
-                      ? "border-[#ff914d] shadow-lg shadow-[#ff914d]/20"
-                      : "border-gray-800/50 hover:border-[#ff914d]/30"
-                  }`}
-                  onMouseEnter={() => setActiveFeature(feature.title)}
-                  onMouseLeave={() => setActiveFeature(null)}
+                  className="group relative overflow-hidden"
+                  style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl">{feature.icon}</div>
-                    <div>
-                      <h3 className="orbitron-font text-xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ff3131] transition-colors duration-300">
-                        {feature.title}
-                      </h3>
-                      <p className="ibm-plex-font text-gray-300 text-sm leading-relaxed">
-                        {feature.description}
-                      </p>
+                  {/* Card Background */}
+                  <div className="relative bg-gradient-to-br from-gray-900/80 to-black/80 rounded-2xl p-6 backdrop-blur-lg border border-gray-800/30 hover:border-[#ff914d]/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#ff914d]/20">
+                    {/* Animated Background */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#ff914d]/5 to-[#ff3131]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl"></div>
+
+                    {/* Content */}
+                    <div className="relative z-10 flex items-start gap-4">
+                      <div className="text-4xl transform group-hover:scale-110 transition-transform duration-300">
+                        {feature.icon}
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="orbitron-font text-xl font-bold text-[#ff914d] mb-3 group-hover:text-[#ff3131] transition-colors duration-300">
+                          {feature.title}
+                        </h3>
+                        <p className="ibm-plex-font text-gray-300 text-sm leading-relaxed group-hover:text-gray-100 transition-colors duration-300">
+                          {feature.description}
+                        </p>
+                      </div>
                     </div>
+
+                    {/* Hover Effect Line */}
+                    <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-[#ff3131] to-[#ff914d] w-0 group-hover:w-full transition-all duration-500"></div>
                   </div>
                 </div>
               ))}
