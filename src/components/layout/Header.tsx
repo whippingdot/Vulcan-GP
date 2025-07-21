@@ -102,7 +102,7 @@ const Header = () => {
         {/* Fixed Sponsor Button with proper racing icon */}
         <div className="hidden md:block">
           <Link
-            href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
+            href="mailto:vulcangp@outlook.com?subject=Sponsorship Inquiry"
             className="relative inline-flex items-center px-6 py-3 font-semibold text-white bg-black border-2 border-[#ff3131] rounded-lg shadow-lg transition-all duration-300 group hover:bg-[#ff3131] hover:text-white"
             style={{ transform: "skew(-8deg)" }}
           >
