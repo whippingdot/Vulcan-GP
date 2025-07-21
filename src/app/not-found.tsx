@@ -179,7 +179,7 @@ export default function NotFound() {
             </Link>
 
             <Link
-              href="mailto:vulcangp04@gmail.com"
+              href="mailto:vulcangp@outlook.com"
               className="bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm border border-gray-800/50 hover:border-[#ff914d]/50 rounded-2xl p-6 transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-[#ff914d]/20"
             >
               <div className="text-[#ff914d] mb-4 group-hover:text-[#ffb97a] transition-colors">
