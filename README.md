@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VulcanGP
 
+_Official Website of VulcanGP – STEM Racing (formerly F1 in Schools) Team_
+## About the Competition: STEM Racing (formerly F1 in Schools)
+
+**STEM Racing**, previously known as F1 in Schools, is the world’s largest international STEM (Science, Technology, Engineering, Mathematics) competition for school students aged 9–19. Teams use industry-standard CAD/CAM software to design, analyze, manufacture, and race miniature compressed air-powered cars, simulating the real-world processes of a Formula 1 team.
+
+Participants develop skills in:
+
+- Engineering and CAD Design
+- Physics and Aerodynamics
+- Project Management and Teamwork
+- Marketing, Branding, and Sponsorship
+- Verbal Presentation and Portfolio Development
+
+The competition is recognized globally for inspiring the next generation of engineers, scientists, and innovators. Teams compete at regional, national, and international levels, with winners advancing to the prestigious STEM Racing World Finals.
+
+Learn more: [STEM Racing Official Site](https://www.f1inschools.com/)
+
+---
+## About VulcanGP
+
+VulcanGP is a high-achieving student team from CHIREC International School, Hyderabad, India, proudly representing our region and school in the STEM Racing (formerly F1 in Schools) competition.
+### 2024 Achievements
+
+- 🏆 1st Place – South India Regionals
+- 🚗 3rd Fastest Car – South India Regionals
+- 🎯 Qualified for Nationals
+
+Our team combines technical ingenuity, creative marketing, and a passion for motorsport to compete at the national level.
+### Team Members
+
+- Arnav Kaul – Team Principal
+- Adityesh Chandrayan – Technical Director
+- Arahant Veerareddy – Head of Marketing
+- Agastya Nadella – Design Engineer
+- Aadhya Pochampally – Graphic Designer
+- Sanjaay Rajkumar – Head of Tech
+---
+## Live Website
+
+> [Visit our official website here!](https://whippingdot.github.io/VulcanGP/)
+---
 ## Getting Started
 
-First, run the development server:
+To run the VulcanGP website locally, follow these steps:
 
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/whippingdot/VulcanGP.git
+cd VulcanGP
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+4. Open http://localhost:3000 in your browser to see the site.
+> _Note: Make sure you have [Node.js](https://nodejs.org/) and npm installed on your machine._
+---
+## Tech Stack
+- TypeScript
+- CSS
+- JavaScript
+---
+## Sponsor Us
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As a student team aspiring to compete at the national and international levels, we rely on the generous support of sponsors and partners. Your sponsorship can help us achieve greater heights in STEM innovation and education, while providing your brand with an opportunity to engage with the next generation of engineers, scientists, and thought leaders.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+If you're interested in sponsoring VulcanGP or want to learn more about our sponsorship opportunities, please reach out to us at [vulcangp@outlook.com] or open an issue on this repository.
 
-## Learn More
+---
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
+For questions, media inquiries, or more information about VulcanGP, please contact:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Arnav Kaul** (Team Principal)
+- **Arahant Veerareddy** (Head of Marketing)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or [open an issue](https://github.com/whippingdot/VulcanGP/issues) on this repository.
