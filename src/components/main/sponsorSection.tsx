@@ -19,14 +19,19 @@ export default function SponsorSection({
   isClient,
 }: SponsorSectionProps) {
   const sponsors: Sponsor[] = [
-    { name: "Chirec International School", logo: "/chirec.png", tier: "title" },
+    {
+      name: "Chirec International School",
+      logo: "/chirec.jpg",
+      tier: "title",
+    },
     { name: "HOI", logo: "/hoi.png", tier: "key" },
+    { name: "Amaron", logo: "/amaron.png", tier: "key" },
     { name: "BattleGear", logo: "/battlegear.png", tier: "regular" },
     { name: "Origo", logo: "/origo.png", tier: "regular" },
   ];
 
   const titleSponsor = sponsors.find((s) => s.tier === "title");
-  const keySponsor = sponsors.find((s) => s.tier === "key");
+  const keySponsors = sponsors.filter((s) => s.tier === "key");
   const regularSponsors = sponsors.filter((s) => s.tier === "regular");
 
   return (
@@ -82,31 +87,41 @@ export default function SponsorSection({
               </div>
             )}
 
-            {/* Key Sponsor - Center Middle */}
-            {keySponsor && (
-              <div className="group">
-                <div className="text-center mb-3">
+            {/* Key Sponsors - Center Middle */}
+            {keySponsors.length > 0 && (
+              <div className="flex flex-col items-center space-y-6">
+                <div className="text-center">
                   <span className="text-[#ff914d] font-semibold text-sm uppercase tracking-wider">
-                    Key Partner
+                    Key Partners
                   </span>
                 </div>
-                <div
-                  className="relative w-44 h-28 bg-white border-2 border-[#ff914d] rounded-lg transition-all duration-300 group-hover:scale-105 group-hover:border-[#ffb366] shadow-lg shadow-[#ff914d]/20 overflow-hidden"
-                  style={{
-                    transform: isClient
-                      ? `translateY(${Math.sin(animationTime * 1.5) * 3}px)`
-                      : "translateY(0)",
-                  }}
-                >
-                  <Image
-                    src={keySponsor.logo}
-                    alt={keySponsor.name}
-                    fill
-                    className="object-contain p-2 filter brightness-105"
-                  />
+                <div className="flex space-x-8">
+                  {keySponsors.map((sponsor, index) => (
+                    <div
+                      key={sponsor.name}
+                      className="group"
+                      style={{
+                        transform: isClient
+                          ? `translateY(${
+                              Math.sin(animationTime * 1.5 + index * 0.5) * 3
+                            }px)`
+                          : "translateY(0)",
+                      }}
+                    >
+                      <div className="relative w-44 h-28 bg-white border-2 border-[#ff914d] rounded-lg transition-all duration-300 group-hover:scale-105 group-hover:border-[#ffb366] shadow-lg shadow-[#ff914d]/20 overflow-hidden">
+                        <Image
+                          src={sponsor.logo}
+                          alt={sponsor.name}
+                          fill
+                          className="object-contain p-2 filter brightness-105"
+                        />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             )}
+
             {/* Regular Sponsors - Bottom Row */}
             <div className="flex flex-col items-center space-y-6">
               <div className="text-center">
