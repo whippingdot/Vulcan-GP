@@ -67,10 +67,10 @@ export const teamData: TeamMember[] = [
   },
   {
     name: "Arahant Veerareddy",
-    role: "Head of Marketing",
+    role: "Head of Marketing & Manufacturing Engineer",
     image: "/Arahant.jpeg", // Replace with actual image path
     description:
-      "Arahant leads VulcanGP’s marketing efforts and plays a major role behind the scenes in manufacturing. While officially the Marketing Head, he also took on the responsibilities of a Manufacturing Engineer — sourcing car parts from multiple vendors and ensuring production ran smoothly. He works closely with the design team to align the car’s looks with its function.",
+      "Arahant leads VulcanGP’s marketing efforts and plays a major role behind the scenes in manufacturing. While originally the Marketing Head, he also took on the responsibilities of a Manufacturing Engineer — sourcing car parts from multiple vendors and ensuring production ran smoothly. He works closely with the design team to align the car’s looks with its function.",
     achievements: [
       "Managed full car manufacturing cycle for Regionals",
       "Coordinated with CNC vendors and suppliers",

@@ -23,7 +23,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
     const teamMembers: TeamMember[] = [
       {
         name: "Arahant Veerareddy",
-        role: "Head of Marketing",
+        role: "Head of Marketing & Manufacturing Engineer",
         angle: 0,
         image: "/Arahant.jpeg",
       },
