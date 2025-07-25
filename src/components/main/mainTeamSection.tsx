@@ -25,25 +25,25 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
         name: "Arahant Veerareddy",
         role: "Head of Marketing & Manufacturing Engineer",
         angle: 0,
-        image: "/Arahant.jpeg",
+        image: "/Arahant.jpg",
       },
       {
         name: "Aadya Pochampally",
         role: "Graphic Designer",
         angle: 60,
-        image: "/Aadhya.jpeg",
+        image: "/Aadhya.jpg",
       },
       {
         name: "Sanjaay Rajkumar",
         role: "Head of Tech",
         angle: 120,
-        image: "/Sanjaay.jpeg",
+        image: "/Sanjaay.jpg",
       },
       {
         name: "Agastya Nadella",
         role: "Design Engineer",
         angle: 180,
-        image: "/Agastya.jpeg",
+        image: "/Agastya.jpg",
       },
       {
         name: "Arnav Kaul",
@@ -55,7 +55,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
         name: "Adityesh Chandrayan",
         role: "Technical Director",
         angle: 300,
-        image: "/Adityesh.jpeg",
+        image: "/Adityesh.jpg",
       },
     ];
 
