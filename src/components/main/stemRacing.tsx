@@ -53,34 +53,34 @@ export default function StemRacingSection() {
 
           <div className="ibm-plex-font grid grid-cols-2 gap-6">
             <div className="bg-gray-800/30 border border-[#ff3131]/30 rounded-lg p-6 text-center hover:bg-[#ff3131]/10 hover:border-[#ff3131]/60 hover:shadow-lg hover:shadow-[#ff3131]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="russo-font text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
+              <div className="russo-font text-2xl sm:text-3xl lg:text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300 leading-tight">
                 60+
               </div>
-              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 text-sm sm:text-base">
                 Countries Participating
               </div>
             </div>
             <div className="bg-gray-800/30 border border-[#ff914d]/30 rounded-lg p-6 text-center hover:bg-[#ff914d]/10 hover:border-[#ff914d]/60 hover:shadow-lg hover:shadow-[#ff914d]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="russo-font text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300">
+              <div className="russo-font text-2xl sm:text-3xl lg:text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300 leading-tight">
                 25,000+
               </div>
-              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 text-sm sm:text-base">
                 Cars Designed Worldwide
               </div>
             </div>
             <div className="bg-gray-800/30 border border-[#ff3131]/30 rounded-lg p-6 text-center hover:bg-[#ff3131]/10 hover:border-[#ff3131]/60 hover:shadow-lg hover:shadow-[#ff3131]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="russo-font text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300">
+              <div className="russo-font text-2xl sm:text-3xl lg:text-4xl font-bold text-[#ff3131] mb-2 group-hover:text-[#ff5555] transition-colors duration-300 leading-tight">
                 $2M+
               </div>
-              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 text-sm sm:text-base">
                 Anually Raised by Teams
               </div>
             </div>
             <div className="bg-gray-800/30 border border-[#ff914d]/30 rounded-lg p-6 text-center hover:bg-[#ff914d]/10 hover:border-[#ff914d]/60 hover:shadow-lg hover:shadow-[#ff914d]/20 hover:scale-105 transition-all duration-300 group">
-              <div className="russo-font text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300">
+              <div className="russo-font text-2xl sm:text-3xl lg:text-4xl font-bold text-[#ff914d] mb-2 group-hover:text-[#ffb366] transition-colors duration-300 leading-tight">
                 40+
               </div>
-              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+              <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 text-sm sm:text-base">
                 Global Sponsors
               </div>
             </div>

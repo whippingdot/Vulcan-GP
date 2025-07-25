@@ -133,7 +133,7 @@ export default function CarPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold horizon-font mb-8">
             <span className="text-white">The </span>
-            <span className="text-[#ff914d]">VulcanGP</span>
+            <span className="text-[#ff914d]">Vulcan GP</span>
             <span className="text-white"> Car</span>
           </h1>
 

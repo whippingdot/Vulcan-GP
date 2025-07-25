@@ -203,7 +203,7 @@ const Header = () => {
             {/* Updated Mobile Sponsor Button to Match Desktop Design */}
             <div className="mt-6 flex justify-center">
               <Link
-                href="mailto:vulcangp04@gmail.com?subject=Sponsorship Inquiry"
+                href="mailto:vulcangp@outlook.com?subject=Sponsorship Inquiry"
                 className="relative inline-flex items-center px-6 py-3 font-semibold text-white bg-black border-2 border-[#ff3131] rounded-lg shadow-lg transition-all duration-300 group hover:bg-[#ff3131] hover:text-white"
                 style={{ transform: "skew(-8deg)" }}
                 onClick={() => setIsMobileMenuOpen(false)}
