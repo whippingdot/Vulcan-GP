@@ -30,7 +30,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Sanjaay Rajkumar",
     role: "Head of Technology",
-    image: "/Sanjaay.jpeg",
+    image: "/Sanjaay.jpg",
     description:
       "As Head of Tech, Sanjaay brings engineering depth and programming experience to VulcanGP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
     achievements: [
@@ -49,7 +49,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Agastya Nadella",
     role: "Design Engineer",
-    image: "/Agastya.jpeg",
+    image: "/Agastya.jpg",
     description:
       "Agastya is the team’s go-to expert for car design and CAD modeling. His deep interest in physics and hands-on work ethic make him a crucial part of the engineering pipeline. As the main designer for our cars, he translated group concepts into a tangible, high-performance model. He continues to iterate and innovate, constantly testing new shapes, materials, and configurations to push our car’s performance forward.",
     achievements: [
@@ -68,7 +68,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Arahant Veerareddy",
     role: "Head of Marketing & Manufacturing Engineer",
-    image: "/Arahant.jpeg", // Replace with actual image path
+    image: "/Arahant.jpg", // Replace with actual image path
     description:
       "Arahant leads Vulcan GP’s marketing efforts while also playing a key role in manufacturing. Originally the Manufacturing Engineer, he took on the additional role of Marketing Head shortly after the F1 in Schools South India Regionals. Constantly coordinating between Enterprise and Engineering, Arahant enjoys the creative process of producing high-quality outreach materials while maintaining absolute precision throughout the car’s design, manufacturing, and assembly stages.",
     achievements: [
@@ -87,7 +87,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Adityesh Chandrayan",
     role: "Technical Director",
-    image: "/Adityesh.jpeg", // Replace with actual image path
+    image: "/Adityesh.jpg", // Replace with actual image path
     description:
       "As Technical Director, Adityesh oversees and documents all engineering and enterprise decisions and activities. His sharp problem-solving and strategizing skills help the team overcome logistical and operational challenges. His academic excellence and leadership experience give him a unique ability to connect big-picture tactics with on-ground execution. His expertise in financial planning and mathematics is crucial for making informed decisions and tracking incoming and outgoing monetary flows.",
     achievements: [
@@ -106,7 +106,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Aadya Pochampally",
     role: "Graphic Designer",
-    image: "/Aadhya.jpeg", // Replace with actual image path
+    image: "/Aadhya.jpg", // Replace with actual image path
     description:
       "As Graphic Designer, Aadhya defines VulcanGP’s visual identity across all media. She works on car livery, pit displays, website visuals, and everything in between—ensuring our team stands out in presentation and branding. Her design work blends creativity with clarity, helping judges and audiences engage with our team’s story and spirit.",
     achievements: [
