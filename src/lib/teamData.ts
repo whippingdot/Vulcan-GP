@@ -30,7 +30,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Sanjaay Rajkumar",
     role: "Head of Technology",
-    image: "/Sanjaay.jpg",
+    image: "/Sanjaay.jpeg",
     description:
       "As Head of Tech, Sanjaay brings engineering depth and programming experience to VulcanGP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
     achievements: [
@@ -49,9 +49,9 @@ export const teamData: TeamMember[] = [
   {
     name: "Agastya Nadella",
     role: "Design Engineer",
-    image: "/Agastya.jpg",
+    image: "/Agastya.jpeg",
     description:
-      "Agastya is the team’s go-to expert for car design and CAD modeling. His deep interest in physics and hands-on work ethic make him a crucial part of the engineering pipeline. As the main designer for our Regionals car, he translated group concepts into a tangible, high-performance model. He continues to iterate and innovate, constantly testing new shapes, materials, and configurations to push our car’s performance forward.",
+      "Agastya is the team’s go-to expert for car design and CAD modeling. His deep interest in physics and hands-on work ethic make him a crucial part of the engineering pipeline. As the main designer for our cars, he translated group concepts into a tangible, high-performance model. He continues to iterate and innovate, constantly testing new shapes, materials, and configurations to push our car’s performance forward.",
     achievements: [
       "Poineered design of the Regionals car (3rd fastest in South India)",
       "Contributed to Best R&D Award",
@@ -68,45 +68,45 @@ export const teamData: TeamMember[] = [
   {
     name: "Arahant Veerareddy",
     role: "Head of Marketing & Manufacturing Engineer",
-    image: "/Arahant.jpg", // Replace with actual image path
+    image: "/Arahant.jpeg", // Replace with actual image path
     description:
-      "Arahant leads VulcanGP’s marketing efforts and plays a major role behind the scenes in manufacturing. While originally the Marketing Head, he also took on the responsibilities of a Manufacturing Engineer — sourcing car parts from multiple vendors and ensuring production ran smoothly. He works closely with the design team to align the car’s looks with its function.",
+      "Arahant leads Vulcan GP’s marketing efforts while also playing a key role in manufacturing. Originally the Manufacturing Engineer, he took on the additional role of Marketing Head shortly after the F1 in Schools South India Regionals. Constantly coordinating between Enterprise and Engineering, Arahant enjoys the creative process of producing high-quality outreach materials while maintaining absolute precision throughout the car’s design, manufacturing, and assembly stages.",
     achievements: [
-      "Managed full car manufacturing cycle for Regionals",
-      "Coordinated with CNC vendors and suppliers",
-      "Led and executed the team’s marketing and outreach strategy",
+      "Selected to represent India at the Asian & Oceanic Optimist Sailing Championship",
+      "Silver medalist in Volleyball at ISSO Nationals 2025",
+      "Elected House Captain for two consecutive years in Student Council",
     ],
     specialties: [
-      "Vendor Coordination",
-      "Brand Strategy & Promotion",
+      "Precision Manufacturing Techniques",
       "Technical Communication",
-      "Assembly & QA",
-      "Sponsorship Management",
+      "Storyboard Creation and Implementation",
+      "Computer Fluid Dynamics",
+      "Vendor Coordination",
     ],
   },
   {
     name: "Adityesh Chandrayan",
     role: "Technical Director",
-    image: "/Adityesh.jpg", // Replace with actual image path
+    image: "/Adityesh.jpeg", // Replace with actual image path
     description:
-      "As Technical Director, Adityesh oversees every major engineering decision and ensures our car meets all F1 in Schools regulations. Known for his sharp problem-solving and attention to detail, he guides the team through testing, validation, and troubleshooting. His academic excellence and leadership experience give him a unique ability to connect big-picture strategy with on-ground execution—critical in high-pressure moments during Regionals.",
+      "As Technical Director, Adityesh oversees and documents all engineering and enterprise decisions and activities. His sharp problem-solving and strategizing skills help the team overcome logistical and operational challenges. His academic excellence and leadership experience give him a unique ability to connect big-picture tactics with on-ground execution. His expertise in financial planning and mathematics is crucial for making informed decisions and tracking incoming and outgoing monetary flows.",
     achievements: [
-      "Oversaw compliance and specs for Regionals car",
-      "Led technical documentation for R&D Award",
-      "Helped troubleshoot car issues under pressure",
+      "Elected Head Boy of the Student Council for two consecutive years",
+      "Awarded Distinction and School Champion Medal in the Euclid Math Contest",
+      "Finalist in the Economics World Cup",
     ],
     specialties: [
-      "Engineering Oversight",
-      "Technical Documentation",
-      "Data-Driven Decision Making",
-      "Compliance & Testing",
-      "Critical Thinking",
+      "Financial Planning and Budget Management",
+      "Documentation and Recording",
+      "Negotiation and Sponsor Acquisition",
+      "Vendor Coordination",
+      "Strategic Planning",
     ],
   },
   {
     name: "Aadya Pochampally",
     role: "Graphic Designer",
-    image: "/Aadhya.jpg", // Replace with actual image path
+    image: "/Aadhya.jpeg", // Replace with actual image path
     description:
       "As Graphic Designer, Aadhya defines VulcanGP’s visual identity across all media. She works on car livery, pit displays, website visuals, and everything in between—ensuring our team stands out in presentation and branding. Her design work blends creativity with clarity, helping judges and audiences engage with our team’s story and spirit.",
     achievements: [
