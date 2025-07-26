@@ -28,22 +28,22 @@ export const teamData: TeamMember[] = [
     ],
   },
   {
-    name: "Sanjaay Rajkumar",
-    role: "Head of Technology",
-    image: "/Sanjaay.jpg",
+    name: "Adityesh Chandrayan",
+    role: "Technical Director",
+    image: "/Adityesh.jpg", // Replace with actual image path
     description:
-      "As Head of Tech, Sanjaay brings engineering depth and programming experience to Vulcan GP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
+      "As Technical Director, Adityesh oversees and documents all engineering and enterprise decisions and activities. His sharp problem-solving and strategizing skills help the team overcome logistical and operational challenges. His academic excellence and leadership experience give him a unique ability to connect big-picture tactics with on-ground execution. His expertise in financial planning and mathematics is crucial for making informed decisions and tracking incoming and outgoing monetary flows.",
     achievements: [
-      "Designed and developed team’s official website",
-      "Implemented advanced simulation workflows",
-      "Created innovative manufacturing processes",
+      "Elected Head Boy of the Student Council for two consecutive years",
+      "Awarded Distinction and School Champion Medal in the Euclid Math Contest",
+      "Finalist in the Economics World Cup",
     ],
     specialties: [
-      "Programming & Simulation",
-      "UI/UX & Web Design",
-      "Data Analysis",
-      "Physics Applications",
-      "Technical Innovation",
+      "Financial Planning and Budget Management",
+      "Documentation and Recording",
+      "Negotiation and Sponsor Acquisition",
+      "Vendor Coordination",
+      "Strategic Planning",
     ],
   },
   {
@@ -85,22 +85,22 @@ export const teamData: TeamMember[] = [
     ],
   },
   {
-    name: "Adityesh Chandrayan",
-    role: "Technical Director",
-    image: "/Adityesh.jpg", // Replace with actual image path
+    name: "Sanjaay Rajkumar",
+    role: "Head of Technology",
+    image: "/Sanjaay.jpg",
     description:
-      "As Technical Director, Adityesh oversees and documents all engineering and enterprise decisions and activities. His sharp problem-solving and strategizing skills help the team overcome logistical and operational challenges. His academic excellence and leadership experience give him a unique ability to connect big-picture tactics with on-ground execution. His expertise in financial planning and mathematics is crucial for making informed decisions and tracking incoming and outgoing monetary flows.",
+      "As Head of Tech, Sanjaay brings engineering depth and programming experience to Vulcan GP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
     achievements: [
-      "Elected Head Boy of the Student Council for two consecutive years",
-      "Awarded Distinction and School Champion Medal in the Euclid Math Contest",
-      "Finalist in the Economics World Cup",
+      "Designed and developed team’s official website",
+      "Implemented advanced simulation workflows",
+      "Created innovative manufacturing processes",
     ],
     specialties: [
-      "Financial Planning and Budget Management",
-      "Documentation and Recording",
-      "Negotiation and Sponsor Acquisition",
-      "Vendor Coordination",
-      "Strategic Planning",
+      "Programming & Simulation",
+      "UI/UX & Web Design",
+      "Data Analysis",
+      "Physics Applications",
+      "Technical Innovation",
     ],
   },
   {
