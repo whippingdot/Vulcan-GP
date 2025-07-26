@@ -206,7 +206,7 @@ export default function CarPage() {
                   <div className="relative w-full max-w-5xl h-full">
                     <Image
                       src="/CarRender.jpeg"
-                      alt="VulcanGP Racing Car"
+                      alt="Vulcan GP Racing Car"
                       fill
                       className="object-contain transition-all duration-700 ease-out group-hover:scale-110 group-hover:brightness-110 drop-shadow-2xl"
                       priority

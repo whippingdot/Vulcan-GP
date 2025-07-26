@@ -68,7 +68,7 @@ export default function TeamPage() {
             <p>
               We are{" "}
               <span className="text-[#ff3131] font-semibold hover:text-[#ff914d] transition-colors duration-300">
-                VulcanGP
+                Vulcan GP
               </span>
               , a passionate team of young engineers and designers united by our
               love for motorsport and innovation. Based in Hyderabad, India, we
@@ -220,7 +220,7 @@ export default function TeamPage() {
           <p className="ibm-plex-font text-xl text-gray-300 mb-8 leading-relaxed">
             Our team brings together sharp engineering, high-speed innovation,
             and a passion for motorsport. From aerodynamic breakthroughs to
-            digital precision, VulcanGP pushes the limits of what student-led
+            digital precision, Vulcan GP pushes the limits of what student-led
             teams can achieve. Backed by a regional title and standout design
             work, we deliver value to sponsors who believe in the future of
             racing and STEM.

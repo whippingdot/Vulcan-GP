@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="flex items-center">
               <Image
                 src="/Logo.png"
-                alt="VulcanGP Logo"
+                alt="Vulcan GP Logo"
                 width={52}
                 height={52}
                 className="object-contain align-middle mr-2 -mt-1"
@@ -219,7 +219,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            © 2025 VulcanGP. All rights reserved. Built with passion for STEM
+            © 2025 Vulcan GP. All rights reserved. Built with passion for STEM
             racing.
           </p>
         </div>

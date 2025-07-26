@@ -16,7 +16,7 @@ const timelineEvents: TimelineEvent[] = [
     date: "2nd June 2025",
     title: "Crowned Champions",
     description:
-      "VulcanGP emerged victorious at the STEM Racing India South Regionals, earning the championship title and qualification for nationals.",
+      "Vulcan GP emerged victorious at the STEM Racing India South Regionals, earning the championship title and qualification for nationals.",
   },
   {
     id: "2",
@@ -37,7 +37,7 @@ const timelineEvents: TimelineEvent[] = [
     date: "10th July 2025",
     title: "Sponsors & Brand Identity Ready",
     description:
-      "Secured major sponsorship deals and completed our comprehensive brand identity package, establishing VulcanGP as a professional racing team.",
+      "Secured major sponsorship deals and completed our comprehensive brand identity package, establishing Vulcan GP as a professional racing team.",
   },
   {
     id: "5",
@@ -58,14 +58,14 @@ const timelineEvents: TimelineEvent[] = [
     date: "18th July 2025",
     title: "Website Complete",
     description:
-      "Launched our official VulcanGP website featuring our story, team, car specifications, and journey to the nationals.",
+      "Launched our official Vulcan GP website featuring our story, team, car specifications, and journey to the nationals.",
   },
   {
     id: "8",
     date: "25th July 2025",
     title: "National Competition",
     description:
-      "The ultimate challenge awaits as VulcanGP competes at the national level, representing the South region with our championship-winning car.",
+      "The ultimate challenge awaits as Vulcan GP competes at the national level, representing the South region with our championship-winning car.",
   },
 ];
 

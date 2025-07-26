@@ -13,9 +13,9 @@ export const teamData: TeamMember[] = [
     role: "Team Principal",
     image: "/Arnav.jpg", // Replace with actual image path
     description:
-      "As Team Principal, Arnav leads VulcanGP with strategic vision and an unwavering passion for motorsport. He brought the team together from scratch and has been the core link between operations, engineering, and management. His ability to manage both people and problems under pressure was critical in our successful run at the South India Regionals. With a background in leadership and team-building, Arnav ensures the team stays on track—literally and figuratively.",
+      "As Team Principal, Arnav leads Vulcan GP with strategic vision and an unwavering passion for motorsport. He brought the team together from scratch and has been the core link between operations, engineering, and management. His ability to manage both people and problems under pressure was critical in our successful run at the South India Regionals. With a background in leadership and team-building, Arnav ensures the team stays on track—literally and figuratively.",
     achievements: [
-      "Led VulcanGP to 1st place at South India Regionals 2025",
+      "Led Vulcan GP to 1st place at South India Regionals 2025",
       "Oversaw team operations for Best R&D Award win",
       "Built foundational team structure and strategy",
     ],
@@ -32,7 +32,7 @@ export const teamData: TeamMember[] = [
     role: "Head of Technology",
     image: "/Sanjaay.jpg",
     description:
-      "As Head of Tech, Sanjaay brings engineering depth and programming experience to VulcanGP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
+      "As Head of Tech, Sanjaay brings engineering depth and programming experience to Vulcan GP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
     achievements: [
       "Designed and developed team’s official website",
       "Implemented advanced simulation workflows",

@@ -38,7 +38,7 @@ const Header = () => {
         >
           <Image
             src="/Logo.png"
-            alt="VulcanGP Logo"
+            alt="Vulcan GP Logo"
             width={48}
             height={48}
             className="w-12 h-12 object-contain align-middle mr-3 -mt-1 transition-transform duration-300 group-hover:scale-110 group-hover:drop-shadow-[0_0_16px_#ff914d]"

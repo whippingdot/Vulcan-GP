@@ -16,7 +16,7 @@ export default function CarSection() {
             <div className="aspect-video bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-xl mb-6 flex items-center justify-center border border-gray-600/30 group-hover:border-[#ff914d]/30 transition-all duration-300 overflow-hidden">
               <Image
                 src="/CarFull.jpeg"
-                alt="VulcanGP Racing Car"
+                alt="Vulcan GP Racing Car"
                 width={400}
                 height={225}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

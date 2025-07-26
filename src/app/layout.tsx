@@ -33,7 +33,7 @@ const russoOne = Russo_One({
 });
 
 export const metadata: Metadata = {
-  title: "VulcanGP",
+  title: "Vulcan GP",
   description: "STEM Racing Regionals Winner",
 };
 

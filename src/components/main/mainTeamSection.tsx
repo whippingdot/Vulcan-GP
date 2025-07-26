@@ -88,7 +88,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
                 <span className="text-[#ff914d]">The</span> Team
               </h3>
               <p className="ibm-plex-font text-base text-gray-300 leading-relaxed max-w-md mx-auto">
-                Meet the brilliant minds behind VulcanGP - a diverse group of
+                Meet the brilliant minds behind Vulcan GP - a diverse group of
                 engineers, designers, and innovators united by our passion for
                 STEM racing excellence
               </p>
@@ -167,7 +167,7 @@ const TeamSection = forwardRef<HTMLElement, TeamSectionProps>(
                     <span className="text-[#ff914d]">The</span> Team
                   </h3>
                   <p className="ibm-plex-font text-base lg:text-lg text-gray-300 leading-relaxed">
-                    Meet the brilliant minds behind VulcanGP - a diverse group
+                    Meet the brilliant minds behind Vulcan GP - a diverse group
                     of engineers, designers, and innovators unified by our
                     passion for STEM racing excellence
                   </p>

@@ -13,7 +13,7 @@ export default function HeroSection({ onScrollToTeam }: HeroSectionProps) {
       <div className="absolute inset-0">
         <Image
           src="/CarBG.jpeg"
-          alt="VulcanGP Background"
+          alt="Vulcan GP Background"
           fill
           className="object-cover opacity-20"
           priority
@@ -30,7 +30,7 @@ export default function HeroSection({ onScrollToTeam }: HeroSectionProps) {
           <div className="flex items-center justify-center">
             <Image
               src="/Logo.png"
-              alt="VulcanGP Logo"
+              alt="Vulcan GP Logo"
               width={300}
               height={300}
               className="object-contain"
