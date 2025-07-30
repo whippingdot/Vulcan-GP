@@ -92,15 +92,15 @@ export const teamData: TeamMember[] = [
       "As Head of Tech, Sanjaay brings engineering depth and programming experience to Vulcan GP. Joining right after the regional championship, he has been responsible for upgrading the team’s digital and analytical capabilities—from building the official website to running internal simulations and tools. With a keen understanding of both visual design and backend logic, he ensures our tech systems stay efficient and competition-ready.",
     achievements: [
       "Designed and developed team’s official website",
-      "Implemented advanced simulation workflows",
-      "Created innovative manufacturing processes",
+      "Published several games",
+      "2nd place individual in CBSE chess clusters",
     ],
     specialties: [
       "Programming & Simulation",
-      "UI/UX & Web Design",
+      "Video Game Development",
       "Data Analysis",
       "Physics Applications",
-      "Technical Innovation",
+      "Creative Design",
     ],
   },
   {
